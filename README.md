@@ -20,7 +20,10 @@ python3 -r requirements.txt
 python3 api.py
 ```
 
-visit: http://localhost:3000
+visit: http://localhost:8085
+
+
+![](./demo.png)
 
 ### test API in terminal
 
