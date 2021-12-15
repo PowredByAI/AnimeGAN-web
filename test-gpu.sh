@@ -1,0 +1,1 @@
+python3 testgpu.py --input_dir $1 --output_dir $2 --device cuda

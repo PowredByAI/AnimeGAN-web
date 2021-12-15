@@ -1,0 +1,1 @@
+python3 testcpu.py --input_dir $1 --output_dir $2 --device cpu
