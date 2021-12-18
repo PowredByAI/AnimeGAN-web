@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="camera">
+    <camera device-position="{{devicePosition}}" flash="off" binderror="error"></camera>
+  </view>
+  <view class="ctrl">
+    <view class="flex">
+      <switch checked="{{devicePosition==='front'}}" bindchange="switchChange" />
+    </view>
+    <view class="flex"><button type="primary" bindtap="takePhoto">Take</button></view>
+  </view>
+</view>

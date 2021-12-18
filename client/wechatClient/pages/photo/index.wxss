@@ -1,0 +1,7 @@
+/* pages/photo/index.wxss */
+.img{
+    flex: 1;
+}
+image{
+    height: 100%;
+}

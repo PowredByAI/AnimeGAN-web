@@ -1,0 +1,12 @@
+<view class="container">
+    <view class="camera">
+        <image mode="aspectFit" wx:if="{{show=='in'}}" src="data:image/png;base64,{{in}}" />
+        <image mode="aspectFit" wx:if="{{show=='out'}}" src="data:image/png;base64,{{out}}" />
+    </view>
+    <view class="ctrl">
+        <view class="flex">
+            <switch checked="{{show==='out'}}" bindchange="switchChange" />
+        </view>
+        <view class="flex"><button type="primary" disabled="{{!canSave}}" bindtap="savePhoto">Save</button></view>
+    </view>
+</view>
